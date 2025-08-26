@@ -379,6 +379,8 @@ This creates platform-specific installers in `src-tauri/target/release/bundle/`:
 - **Windows**: `.msi` installer
 - **Linux**: `.deb` file
 
+> 📖 **Need more detailed instructions?** Check out the comprehensive **[HOW_TO_RUN.md](./HOW_TO_RUN.md)** guide for step-by-step setup, troubleshooting, and platform-specific notes.
+
 ---
 
 ## 🔐 Security & Privacy
@@ -553,11 +555,8 @@ npm run tauri dev
 npm run build
 npm run tauri build
 
-# Type checking
-npm run type-check
-
-# Linting
-npm run lint
+# Preview production build
+npm run preview
 ```
 
 ---
